@@ -38,7 +38,9 @@
                   "start": "24-04-2023 8:00 a.m",
                   "end": "30-04-2023 22:00 p.m."
                 }
-              }
+              },
+              "habitual-product": true,
+              "basket": false
             },
             {
               "id": "1.A.0002",
@@ -49,7 +51,9 @@
               "stock": 56,
               "sizing": "ud",
               "packaging": "Caja",
-              "offer": {}
+              "offer": {},
+              "habitual-product": true,
+              "basket": true
             }
           ]
         },
@@ -73,7 +77,9 @@
                   "start": "17-04-2023 8:00 a.m",
                   "end": "23-04-2023 22:00 p.m."
                 }
-              }
+              },
+              "habitual-product": false,
+              "basket": false
             },
             {
               "id": "1.B.0002",
@@ -84,7 +90,9 @@
               "stock": 40,
               "sizing": "ud",
               "packaging": "Bandeja",
-              "offer": {}
+              "offer": {},
+              "habitual-product": false,
+              "basket": true
             }
           ]
         },
@@ -101,7 +109,9 @@
               "stock": 22,
               "sizing": "kg",
               "packaging": "granel",
-              "offer": {}
+              "offer": {},
+              "habitual-product": true,
+              "basket": false
             }
           ]
         }
@@ -138,7 +148,9 @@
               "stock": 98,
               "sizing": "kg",
               "packaging": "granel",
-              "offer": {}
+              "offer": {},
+              "habitual-product": true,
+              "basket": false
             },
             {
               "id": "2.A.0002",
@@ -149,7 +161,9 @@
               "stock": 56,
               "sizing": "ud",
               "packaging": "Caja",
-              "offer": {}
+              "offer": {},
+              "habitual-product": false,
+              "basket": true
             }
           ]
         },
@@ -173,7 +187,9 @@
                   "start": "24-04-2023 8:00 a.m",
                   "end": "30-04-2023 22:00 p.m."
                 }
-              }
+              },
+              "habitual-product": false,
+              "basket": false
             },
             {
               "id": "2.B.0002",
@@ -184,7 +200,9 @@
               "stock": 23,
               "sizing": "ud",
               "packaging": "Bandeja",
-              "offer": {}
+              "offer": {},
+              "habitual-product": true,
+              "basket": true
             }
           ]
         },
@@ -201,7 +219,9 @@
               "stock": 30,
               "sizing": "kg",
               "packaging": "granel",
-              "offer": {}
+              "offer": {},
+              "habitual-product": true,
+              "basket": false
             }
           ]
         }
@@ -223,7 +243,99 @@
           "40.47640341158279", 
           "-3.3910827317195396"
         ] 
-      }
+      },
+      "sections": [
+        {
+          "id": "3.A",
+          "section": "Frutería",
+          "products": [
+            {
+              "id": "3.A.0001",
+              "name": "Manzana",
+              "description": "Manzana Roja",
+              "PVP": 1.49,
+              "currency": "EUR",
+              "stock": 98,
+              "sizing": "kg",
+              "packaging": "granel",
+              "offer": {},
+              "habitual-product": true,
+              "basket": false
+            },
+            {
+              "id": "3.A.0002",
+              "name": "Frambuesas",
+              "description": "Frambuesas",
+              "PVP": 5.99,
+              "currency": "EUR",
+              "stock": 56,
+              "sizing": "ud",
+              "packaging": "Caja",
+              "offer": {},
+              "habitual-product": false,
+              "basket": true
+            }
+          ]
+        },
+        {
+          "id": "3.B",
+          "section": "Carnicería",
+          "products": [
+            {
+              "id": "3.B.0001",
+              "name": "Pollo",
+              "description": "Pollo entero deshuesado",
+              "PVP": 7.25,
+              "currency": "EUR",
+              "stock": 80,
+              "sizing": "kg",
+              "packaging": "Bandeja",
+              "offer": {
+                "active": true,
+                "discount": "-15% 2ª unidad",
+                "date-range": {
+                  "start": "24-04-2023 8:00 a.m",
+                  "end": "30-04-2023 22:00 p.m."
+                }
+              },
+              "habitual-product": false,
+              "basket": false
+            },
+            {
+              "id": "3.B.0002",
+              "name": "Carne picada",
+              "description": "Carne picada cerdo",
+              "PVP": 6.99,
+              "currency": "EUR",
+              "stock": 23,
+              "sizing": "ud",
+              "packaging": "Bandeja",
+              "offer": {},
+              "habitual-product": true,
+              "basket": true
+            }
+          ]
+        },
+        {
+          "id": "3.C",
+          "section": "Panadería",
+          "products": [
+            {
+              "id": "3.C.0001",
+              "name": "Croissant",
+              "description": "Croissant de mantequilla",
+              "PVP": 2.59,
+              "currency": "EUR",
+              "stock": 30,
+              "sizing": "kg",
+              "packaging": "granel",
+              "offer": {},
+              "habitual-product": false,
+              "basket": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
