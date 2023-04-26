@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <id>1</id>
+  <name>Mercadona</name>
+  <data>
+    <website>https://www.mercadona.es/</website>
+    <localization>
+      <address>Calle Uno</address>
+      <num>1</num>
+      <zipcode>10010</zipcode>
+      <city>Leganés</city>
+      <state>Madrid</state>
+    </localization>
+    <geolocalization>40.44524697143909</geolocalization>
+    <geolocalization>-3.363219788977725</geolocalization>
+  </data>
+  <sections>
+    <id>1.A</id>
+    <section>Frutería</section>
+    <products>
+      <id>1.A.0001</id>
+      <name>Manzana</name>
+      <description>Manzana Verde</description>
+      <PVP>2.99</PVP>
+      <currency>EUR</currency>
+      <stock>132</stock>
+      <sizing>kg</sizing>
+      <packaging>granel</packaging>
+      <offer>
+        <active>true</active>
+        <discount>-15%</discount>
+        <date-range>
+          <start>24-04-2023 8:00 a.m</start>
+          <end>30-04-2023 22:00 p.m.</end>
+        </date-range>
+      </offer>
+      <habitual-product>true</habitual-product>
+      <basket>false</basket>
+    </products>
+    <products>
+      <id>1.A.0002</id>
+      <name>Arandanos</name>
+      <description>Arandanos</description>
+      <PVP>5.99</PVP>
+      <currency>EUR</currency>
+      <stock>56</stock>
+      <sizing>ud</sizing>
+      <packaging>Caja</packaging>
+      <offer/>
+      <habitual-product>true</habitual-product>
+      <basket>true</basket>
+    </products>
+  </sections>
+  <sections>
+    <id>1.B</id>
+    <section>Carnicería</section>
+    <products>
+      <id>1.B.0001</id>
+      <name>Pollo</name>
+      <description>Pollo entero deshuesado</description>
+      <PVP>6.25</PVP>
+      <currency>EUR</currency>
+      <stock>40</stock>
+      <sizing>kg</sizing>
+      <packaging>Bandeja</packaging>
+      <offer>
+        <active>false</active>
+        <discount>-5%</discount>
+        <date-range>
+          <start>17-04-2023 8:00 a.m</start>
+          <end>23-04-2023 22:00 p.m.</end>
+        </date-range>
+      </offer>
+      <habitual-product>false</habitual-product>
+      <basket>false</basket>
+    </products>
+    <products>
+      <id>1.B.0002</id>
+      <name>Carne picada</name>
+      <description>Carne picada mixta</description>
+      <PVP>7.6</PVP>
+      <currency>EUR</currency>
+      <stock>40</stock>
+      <sizing>ud</sizing>
+      <packaging>Bandeja</packaging>
+      <offer/>
+      <habitual-product>false</habitual-product>
+      <basket>true</basket>
+    </products>
+  </sections>
+  <sections>
+    <id>1.C</id>
+    <section>Panadería</section>
+    <products>
+      <id>1.C.0001</id>
+      <name>Croissant</name>
+      <description>Croissant de mantequilla</description>
+      <PVP>2.79</PVP>
+      <currency>EUR</currency>
+      <stock>22</stock>
+      <sizing>kg</sizing>
+      <packaging>granel</packaging>
+      <offer/>
+      <habitual-product>true</habitual-product>
+      <basket>false</basket>
+    </products>
+  </sections>
+</root>
