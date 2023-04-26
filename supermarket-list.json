@@ -1,0 +1,229 @@
+{
+  "supermarket": [
+    {
+      "id": "1",
+      "name": "Mercadona",
+      "data": {
+        "website": "https://www.mercadona.es/",
+        "localization": {
+          "address": "Calle Uno",
+          "num": 1,
+          "zipcode": 10010,
+          "city": "Leganés",
+          "state": "Madrid"
+        },
+        "geolocalization" : [
+          "40.44524697143909",
+          "-3.363219788977725"
+        ] 
+      },
+      "sections": [
+        {
+          "id": "1.A",
+          "section": "Frutería",
+          "products": [
+            {
+              "id": "1.A.0001",
+              "name": "Manzana",
+              "description": "Manzana Verde",
+              "PVP": 2.99,
+              "currency": "EUR",
+              "stock": 132,
+              "sizing": "kg",
+              "packaging": "granel",
+              "offer": {
+                "active": true,
+                "discount": "-15%",
+                "date-range": {
+                  "start": "24-04-2023 8:00 a.m",
+                  "end": "30-04-2023 22:00 p.m."
+                }
+              }
+            },
+            {
+              "id": "1.A.0002",
+              "name": "Arandanos",
+              "description": "Arandanos",
+              "PVP": 5.99,
+              "currency": "EUR",
+              "stock": 56,
+              "sizing": "ud",
+              "packaging": "Caja",
+              "offer": {}
+            }
+          ]
+        },
+        {
+          "id": "1.B",
+          "section": "Carnicería",
+          "products": [
+            {
+              "id": "1.B.0001",
+              "name": "Pollo",
+              "description": "Pollo entero deshuesado",
+              "PVP": 6.25,
+              "currency": "EUR",
+              "stock": 40,
+              "sizing": "kg",
+              "packaging": "Bandeja",
+              "offer": {
+                "active": false,
+                "discount": "-5%",
+                "date-range": {
+                  "start": "17-04-2023 8:00 a.m",
+                  "end": "23-04-2023 22:00 p.m."
+                }
+              }
+            },
+            {
+              "id": "1.B.0002",
+              "name": "Carne picada",
+              "description": "Carne picada mixta",
+              "PVP": 7.6,
+              "currency": "EUR",
+              "stock": 40,
+              "sizing": "ud",
+              "packaging": "Bandeja",
+              "offer": {}
+            }
+          ]
+        },
+        {
+          "id": "1.C",
+          "section": "Panadería",
+          "products": [
+            {
+              "id": "1.C.0001",
+              "name": "Croissant",
+              "description": "Croissant de mantequilla",
+              "PVP": 2.79,
+              "currency": "EUR",
+              "stock": 22,
+              "sizing": "kg",
+              "packaging": "granel",
+              "offer": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Carrefour",
+      "data": {
+        "website": "https://www.carrefour.es/",
+        "localization": {
+          "address": "Calle Dos",
+          "num": 2,
+          "zipcode": 10020,
+          "city": "Leganés",
+          "state": "Madrid"
+        },
+        "geolocalization" : [
+          "40.4511762510997",
+          "-3.470499515532404"
+        ] 
+      },
+      "sections": [
+        {
+          "id": "2.A",
+          "section": "Frutería",
+          "products": [
+            {
+              "id": "2.A.0001",
+              "name": "Manzana",
+              "description": "Manzana Roja",
+              "PVP": 2.49,
+              "currency": "EUR",
+              "stock": 98,
+              "sizing": "kg",
+              "packaging": "granel",
+              "offer": {}
+            },
+            {
+              "id": "2.A.0002",
+              "name": "Frambuesas",
+              "description": "Frambuesas",
+              "PVP": 5.99,
+              "currency": "EUR",
+              "stock": 56,
+              "sizing": "ud",
+              "packaging": "Caja",
+              "offer": {}
+            }
+          ]
+        },
+        {
+          "id": "2.B",
+          "section": "Carnicería",
+          "products": [
+            {
+              "id": "2.B.0001",
+              "name": "Pollo",
+              "description": "Pollo entero deshuesado",
+              "PVP": 7.25,
+              "currency": "EUR",
+              "stock": 80,
+              "sizing": "kg",
+              "packaging": "Bandeja",
+              "offer": {
+                "active": true,
+                "discount": "-15% 2ª unidad",
+                "date-range": {
+                  "start": "24-04-2023 8:00 a.m",
+                  "end": "30-04-2023 22:00 p.m."
+                }
+              }
+            },
+            {
+              "id": "2.B.0002",
+              "name": "Carne picada",
+              "description": "Carne picada cerdo",
+              "PVP": 6.99,
+              "currency": "EUR",
+              "stock": 23,
+              "sizing": "ud",
+              "packaging": "Bandeja",
+              "offer": {}
+            }
+          ]
+        },
+        {
+          "id": "2.C",
+          "section": "Panadería",
+          "products": [
+            {
+              "id": "2.C.0001",
+              "name": "Croissant",
+              "description": "Croissant de mantequilla",
+              "PVP": 2.59,
+              "currency": "EUR",
+              "stock": 30,
+              "sizing": "kg",
+              "packaging": "granel",
+              "offer": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "LIDL",
+      "data": {
+        "website": "https://www.lidl.es/",
+        "localization": {
+          "address": "Calle Tres",
+          "num": 3,
+          "zipcode": 10030,
+          "city": "Leganés",
+          "state": "Madrid"
+        },
+        "geolocalization" : [
+          "40.47640341158279", 
+          "-3.3910827317195396"
+        ] 
+      }
+    }
+  ]
+}
